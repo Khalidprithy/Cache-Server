@@ -2,50 +2,80 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Tailwind CSS -->
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-
-  <!-- Font Awesome (for the hand-peace icon) -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-
-
+  <link href="style.css" rel="stylesheet">
   <title>Cache Server</title>
 </head>
 
 <body>
-
   <main class="grid min-h-screen w-full place-items-center bg-gray-900">
-    <div class="absolute left-1/2 top-1/2 h-96 w-80 -translate-x-1/2 -translate-y-1/2 rotate-6 rounded-2xl bg-gray-400">
+
+    <div class="center">
+
+      <div class="card">
+        <div class="additional">
+          <div class="user-card">
+            <div class="level center">
+              Root Devs
+            </div>
+            <div class="points center">
+              Software Engineer
+            </div>
+            <img class="center rounded-full h-24 w-24" src="/public/profile.jpg" alt="">
+          </div>
+          <div class="more-info">
+            <h1>Dev.Kbin</h1>
+            <div class="coords">
+              <span>Web Development</span>
+              <span>Joined June 2023</span>
+            </div>
+            <div class="coords">
+              <span>Jr. Software Engineer</span>
+              <span>Dhaka, Bangladesh</span>
+            </div>
+            <div class="stats">
+              <div>
+                <a href="https://www.linkedin.com/in/khalidbinalam/" target="_blank">
+                  <div class="title">LinkedIn</div>
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/Khalidprithy" target="_blank">
+                  <div class="title">Github</div>
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/mdkhalidbinalam/" target="_blank">
+                  <div class="title">Instagram</div>
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://devkbin.netlify.app/" target="_blank">
+                  <div class="title">Portfolio</div>
+                  <i class="fas fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="general">
+          <h1>Dev.Kbin</h1>
+          <p>I am a Junior Software Engineer currently employed at RootDevs, where I work as a full-stack developer as
+            part of the Web Application Development team. Together, we utilize NextJS and NodeJS to create software
+            solutions that provide users with a seamless and enjoyable experience.</p>
+          <span class="more">Hover for social links</span>
+        </div>
+      </div>
     </div>
 
-    <div
-      class="absolute left-1/2 top-1/2 h-96 w-80 -translate-x-1/2 -translate-y-1/2 rotate-6 space-y-6 rounded-2xl bg-gray-100 p-6 transition duration-300 hover:rotate-0">
-      <div class="flex justify-end">
-        <div class="h-4 w-4 rounded-full bg-gray-900"></div>
-      </div>
-
-      <header class="text-center text-xl font-extrabold text-gray-600">dev.Kbin</header>
-
-      <div>
-        <p class="text-center text-5xl font-extrabold text-gray-900">Cache Server (Public API)</p>
-        <p class="text-center text-4xl font-extrabold text-[#FE5401]">Profile</p>
-      </div>
-
-      <footer class="mb-10 flex justify-center">
-        <a href="https://devkbin.netlify.app/" target="_blank" rel="noopener noreferrer"
-          class="flex items-baseline gap-2 rounded bg-gray-400 px-4 py-2.5 text-xl font-bold text-blue-400 hover:bg-red-500">
-          <span>Portfolio</span>
-          <i class="fa-brands fa-square-github"></i>
-        </a>
-      </footer>
-    </div>
   </main>
-
-
 </body>
 
 </html>
